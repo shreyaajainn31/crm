@@ -1,0 +1,61 @@
+.contact-navbar{
+    background-color: antiquewhite;
+}
+
+.ContactNavbarItems{
+    border: black;
+    width: auto;
+    height: 25px;
+    box-shadow: inset;
+
+}
+.ContactNavbarItems li{
+    display: inline;
+    margin-top: 10rem;
+}
+
+.ContactNavbarItems a{
+    text-decoration: none;
+}
+.contact-heading{
+    text-align: center;
+}
+
+.ContactNavbarItems ul li{
+    display: inline;
+    text-align: right;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.ContactNavbarItems li:hover{
+    background-color: rgb(193, 173, 230);
+    text-decoration: none;
+
+}
+
+.ContactNavbarItems a.active{
+    color: red;
+}
+
+.contact-form{
+    align-self: center;
+}
+
+.print-contact{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.name-email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px; 
+}

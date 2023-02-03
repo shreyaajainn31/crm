@@ -1,0 +1,31 @@
+.NavbarItems ul{
+    display: inline-flex;
+    color: black;
+}
+
+.NavbarItems{
+    background-color: pink;
+    border: black;
+    width: auto;
+    height: 80px;
+}
+.NavbarItems a{
+    text-decoration: none;
+}
+.NavbarItems ul li{
+    display: inline;
+    text-align: right;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    float:right;
+    justify-content: flex-end;
+}
+
+.NavbarItems li:hover{
+    background-color: rgb(193, 173, 230);
+    text-decoration: none;
+}
+
+.NavbarItems a.active{
+    color: red;
+}
